@@ -1,0 +1,78 @@
+================================================================================
+RAG Prompt Examples
+================================================================================
+
+
+
+================================================================================
+EXAMPLE 1
+================================================================================
+
+Query: Haksız zenginleşme ile ilgili hükümler nelerdir?
+
+Prompt Sent to Model:
+----------------------------------------
+<s>[INST] <<SYS>>
+Sen Türk hukuk asistanısın. Sana verilen bağlam bilgisindeseniz kalmak zorundasın.
+Dış bilgi ORANDEKİ PREMÜZLERİ KULLANAMAZSUR. Bağlam yetersiz veya belirsizse açıkça belirt.
+Cevabını kısa, bilgilendirici ve hukuki tarz da verin. Sonunda destek kaynakları listele.
+<</SYS>>
+
+Soru: Haksız zenginleşme ile ilgili hükümler nelerdir?
+
+[Bağlam 1]
+Kaynak: Türk Borçlar Kanunu
+Metin: Source: Türk Borçlar Kanunu Category: hukuk Question: Haksız zenginleşme ile ilgili hangi uluslararası sözleşmeler önemlidir? Answer: Bu konuda önemli uluslararası sözleşmeler, Avrupa Birliği'nin tüketici koruma sözleşmeleri veya uluslararası özel hukuk sözleşmeleri olabilir. Avrupa Birliği'nin tüketici koruma sözleşmeleri, haksız zenginleşme ile ilgili bazı hükümler içerebilir, özellikle tüketicilerle ilgili konularda. Uluslararası özel hukuk sözleşmeleri ise, farklı ülkelerin hukuk sistemleri arasında çakışma durumlarında uygulanacak kuralları belirler. Bu sözleşmeler, haksız zenginleşme ile ilgili bazı kavramları ve hukuki sonuçları düzenleyebilir.
+
+[Bağlam 2]
+Kaynak: Türk Borçlar Kanunu
+Metin: Source: Türk Borçlar Kanunu Category: hukuk Question: Sebepsiz zenginleşme ile ilgili hangi hukuka aykırı sonuçlar ortaya çıkabilir? Answer: Sebepsiz zenginleşme ile ilgili hukuka aykırı sonuçlar, örneğin bir suçun işlenmesi veya haksız rekabetin ortaya çıkması gibi durumlar olabilir. Örneğin, bir kişi, başkasının malını çalarak zenginleşirse, bu durum hem haksız zenginleşme hem de hırsızlık suçuna yol açabilir.
+
+[Bağlam 3]
+Kaynak: Türk Medeni Kanunu
+Metin: Source: Türk Medeni Kanunu Category: hukuk Question: Hediye aynen veya mislen geri verilemiyorsa, sebepsiz zenginleşme hükümleri neden uygulanır? Answer: Sebepsiz zenginleşme hükümleri, bir tarafın diğerinin kaybından faydalanmasını engellemek ve adaletli bir denge oluşturmak için uygulanır.
+
+
+
+Yukarıdaki bağlam bilgisini kullanarak soruyu cevapla. Yanıtın sonuna destek kaynakları ekle.
+Bağlam yetersizse: "Verilen bağlamda yeterli bilgi yoktur." de. [/INST]
+----------------------------------------
+
+Context sources used: ['Türk Borçlar Kanunu', 'Türk Borçlar Kanunu', 'Türk Medeni Kanunu']
+
+
+================================================================================
+EXAMPLE 2
+================================================================================
+
+Query: Miras bırakanın tasarruf özgürlüğü nasıl sınırlandırılır?
+
+Prompt Sent to Model:
+----------------------------------------
+<s>[INST] <<SYS>>
+Sen Türk hukuk asistanısın. Sana verilen bağlam bilgisindeseniz kalmak zorundasın.
+Dış bilgi ORANDEKİ PREMÜZLERİ KULLANAMAZSUR. Bağlam yetersiz veya belirsizse açıkça belirt.
+Cevabını kısa, bilgilendirici ve hukuki tarz da verin. Sonunda destek kaynakları listele.
+<</SYS>>
+
+Soru: Miras bırakanın tasarruf özgürlüğü nasıl sınırlandırılır?
+
+[Bağlam 1]
+Kaynak: Türk Medeni Kanunu
+Metin: Source: Türk Medeni Kanunu Category: hukuk Question: Bir miras bırakan, malvarlığının tamamında veya bir kısmında nasıl tasarruf edebilir? Answer: Bir miras bırakan, tasarruf özgürlüğünün sınırları içinde, malvarlığının tamamında veya bir kısmında vasiyetname ya da miras sözleşmesiyle tasarrufta bulunabilir. Vasiyetname, miras bırakanın ölümünden sonra malvarlığının nasıl paylaştırılacağını belirleyen bir belgedir. Miras sözleşmesi ise, miras bırakanın yaşarken, mirasını nasıl paylaştıracağına dair bir anlaşma yapmasını sağlar. Her iki durumda da, miras bırakan, malvarlığının tamamında veya bir kısmında dilediği gibi tasarruf edebilir.
+
+[Bağlam 2]
+Kaynak: Kaynak 2
+Metin: Question: Miras bırakanın tasarruf nisabı nedir? Answer: Miras bırakanın tasarruf nisabı, miras bırakanın, malvarlığının belirli bir kısmı üzerinde serbestçe tasarruf edebilme hakkıdır. bu nisap, yasal mirasçıların saklı paylarına tecavüz etmemelidir.
+
+[Bağlam 3]
+Kaynak: Türk Medeni Kanunu
+Metin: Source: Türk Medeni Kanunu Category: hukuk Question: Miras bırakanın tasarruf etmediği kısım kime kalır? Answer: Miras bırakanın üzerinde tasarruf etmediği kısım yasal mirasçılarına kalır. Yasal mirasçılar, kanunda belirtilen sıraya göre miras payı alma hakkına sahip kişilerdir. Örneğin, miras bırakanın eşi, çocukları, anne ve babası, kardeşleri gibi. Miras bırakan, vasiyetname veya miras sözleşmesiyle bu payı değiştirme hakkına sahiptir, ancak yasal mirasçıların saklı paylarını elinden alamaz.
+
+
+
+Yukarıdaki bağlam bilgisini kullanarak soruyu cevapla. Yanıtın sonuna destek kaynakları ekle.
+Bağlam yetersizse: "Verilen bağlamda yeterli bilgi yoktur." de. [/INST]
+----------------------------------------
+
+Context sources used: ['Türk Medeni Kanunu', 'Kaynak 2', 'Türk Medeni Kanunu']

@@ -1,0 +1,24 @@
+query,answer,supporting_sources,context_count,model,test_query_index,top_chunk_ids,retrieval_model,reranker_model
+Haksız zenginleşme ile ilgili hükümler nelerdir?,Verilen bağlamda yeterli bilgi yoktur.,"['Türk Borçlar Kanunu', 'Türk Borçlar Kanunu', 'Türk Medeni Kanunu']",3,google/gemma-2-9b-it,1,"['doc_08869_372364da_chunk_0', 'doc_08831_5fc432e8_chunk_0', 'doc_06946_fdad9f04_chunk_0']",sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,cross-encoder/ms-marco-MiniLM-L-6-v2
+Miras bırakanın tasarruf özgürlüğü nasıl sınırlandırılır?,"Miras bırakanın tasarruf özgürlüğü, yasal mirasçıların saklı paylarına tecavüz etmemesi koşuluyla sınırlıdır. 
+
+**Destek Kaynakları:**
+
+* Türk Medeni Kanunu","['Türk Medeni Kanunu', 'Kaynak 2', 'Türk Medeni Kanunu']",3,google/gemma-2-9b-it,2,"['doc_05311_13ffd271_chunk_0', 'doc_18030_e863c754_chunk_0', 'doc_05312_8b080820_chunk_0']",sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,cross-encoder/ms-marco-MiniLM-L-6-v2
+Ceza muhakemesinde tutuklama şartları nelerdir?,"Bir kişiyi tutuklamak için, kişinin suç işlediğine dair kuvvetli bir şüphe olması ve bu şüpheyi destekleyen somut delillerin bulunması gerekir. Bunun yanı sıra, tutuklama için geçerli bir neden de bulunmalıdır. Örneğin, şüphelinin kaçma riski, delilleri yok etme olasılığı veya tanıklar üzerinde baskı uygulama ihtimali tutuklama nedeni olabilir. Ancak, işin önemi, verilmesi beklenen ceza veya güvenlik tedbiri ile ölçülü olmaması durumunda tutuklama kararı verilemez. 
+
+**Destek Kaynakları:**
+
+* Ceza Muhakemesi Kanunu","['Kaynak 1', 'Ceza Muhakemesi Kanunu', 'Ceza Muhakemesi Kanunu']",3,google/gemma-2-9b-it,3,"['doc_17676_e4557b3c_chunk_0', 'doc_01982_b91808f9_chunk_0', 'doc_01749_c0f7d194_chunk_0']",sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,cross-encoder/ms-marco-MiniLM-L-6-v2
+Anayasa'ya göre devletin şekli nedir?,"```
+Türkiye Cumhuriyeti, Anayasa'ya göre cumhuriyet şeklindeki bir hukuk devletidir. 
+```
+
+**Destek Kaynakları:**
+
+* Bağlam 3","['Kaynak 1', 'Kaynak 2', 'Kaynak 3']",3,google/gemma-2-9b-it,4,"['doc_18788_4273ac6c_chunk_0', 'doc_23342_5c2a37c7_chunk_0', 'doc_13608_0add0200_chunk_0']",sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,cross-encoder/ms-marco-MiniLM-L-6-v2
+Aile yurdu ile ilgili malik üzerindeki sınırlamalar nelerdir?,"Aile yurdu olarak belirlenen taşınmazın maliki, mahkemece haklı sebeplere dayanılarak geçici bir istisna kabul edilmiş olmadıkça, taşınmazı veya üzerindeki tesisi kendisinin işletmesi ya da konutta oturması zorunludur. 
+
+**Destek Kaynakları:**
+
+* Türk Medeni Kanunu","['Türk Medeni Kanunu', 'Türk Medeni Kanunu', 'Kaynak 3']",3,google/gemma-2-9b-it,5,"['doc_04673_8c27f522_chunk_0', 'doc_04643_82816063_chunk_0', 'doc_18892_23c0ae5e_chunk_0']",sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,cross-encoder/ms-marco-MiniLM-L-6-v2

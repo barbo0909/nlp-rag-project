@@ -1,0 +1,17 @@
+{
+  "corpus_size": 27745,
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "embedding_dimension": 384,
+  "embeddings_shape": [
+    27745,
+    384
+  ],
+  "index_size": 27745,
+  "files": {
+    "corpus_embeddings": "corpus_embeddings.npy",
+    "faiss_index": "faiss_index.bin",
+    "row_mapping": "retrieval_row_mapping.csv",
+    "test_results_csv": "dense_test_results.csv",
+    "test_results_jsonl": "dense_test_results.jsonl"
+  }
+}
