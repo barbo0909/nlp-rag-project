@@ -1,0 +1,18 @@
+{
+  "dataset_variant": "kaggle_only",
+  "corpus_size": 14155,
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "embedding_dimension": 384,
+  "embeddings_shape": [
+    14155,
+    384
+  ],
+  "index_size": 14155,
+  "files": {
+    "corpus_embeddings": "kaggle_dense_embeddings.npy",
+    "faiss_index": "kaggle_faiss_index.index",
+    "row_mapping": "kaggle_retrieval_row_mapping.csv",
+    "test_results_csv": "kaggle_dense_retrieval_results.csv",
+    "test_results_jsonl": "kaggle_dense_retrieval_results.jsonl"
+  }
+}

@@ -1,5 +1,6 @@
 {
-  "timestamp": "2026-03-31T16:32:56.420150",
+  "timestamp": "2026-04-01T20:47:56.330794",
+  "dataset_variant": "kaggle_only",
   "num_test_queries": 5,
   "num_generated_answers": 5,
   "retrieval_config": {
@@ -20,7 +21,7 @@
     "top_p": 0.9,
     "top_k": 40
   },
-  "corpus_size": 27745,
+  "corpus_size": 14155,
   "test_queries": [
     "Haksız zenginleşme ile ilgili hükümler nelerdir?",
     "Miras bırakanın tasarruf özgürlüğü nasıl sınırlandırılır?",

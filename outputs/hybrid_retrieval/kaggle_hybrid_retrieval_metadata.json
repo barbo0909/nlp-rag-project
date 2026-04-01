@@ -1,0 +1,17 @@
+{
+  "corpus_size": 14155,
+  "top_k": 5,
+  "dense_candidates": 20,
+  "bm25_candidates": 20,
+  "alpha": 0.5,
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "bm25_corpus_size": 14155,
+  "faiss_index_size": 14155,
+  "test_queries_count": 5,
+  "total_results": 25,
+  "files": {
+    "kaggle_hybrid_retrieval_results_csv": "kaggle_hybrid_retrieval_results.csv",
+    "kaggle_hybrid_retrieval_results_jsonl": "kaggle_hybrid_retrieval_results.jsonl",
+    "kaggle_hybrid_retrieval_metadata": "kaggle_hybrid_retrieval_metadata.json"
+  }
+}

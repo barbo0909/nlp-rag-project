@@ -1,0 +1,20 @@
+{
+  "source_hit_accuracy": 0.52,
+  "article_hit@1_accuracy": 0.0,
+  "article_hit@3_accuracy": 0.0,
+  "article_hit@5_accuracy": 0.0,
+  "rouge_l_mean": 0.11026799999999999,
+  "rouge_l_std": 0.14730699228315744,
+  "rouge_l_min": 0.0,
+  "rouge_l_max": 0.5122,
+  "bleu_mean": 0.09393800000000001,
+  "bleu_std": 0.13396292952049935,
+  "bleu_min": 0.0,
+  "bleu_max": 0.4348,
+  "token_f1_mean": 0.077082,
+  "token_f1_std": 0.1176870906346181,
+  "token_f1_min": 0.0,
+  "token_f1_max": 0.4074,
+  "total_questions": 50,
+  "timestamp": "2026-04-01T21:03:39.206150"
+}
